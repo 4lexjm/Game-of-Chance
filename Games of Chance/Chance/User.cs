@@ -15,6 +15,5 @@ namespace Chance
         }
 
         public string Name { get; set; }
-
     }
 }
