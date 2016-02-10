@@ -8,12 +8,45 @@ namespace Chance
 {
     public abstract class User
     {
-        enum Gender
+
+        public string Name
         {
-            Man,
-            Woman
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+
+            set
+            {
+            }
         }
 
-        public string Name { get; set; }
+        public Gender Gender
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+
+            set
+            {
+            }
+        }
+
+        /// <summary>
+        /// Définit ou obtient l'âge du joueur
+        /// </summary>
+        /// <value>Âge du joueur</value>
+        public float Age
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+
+            set
+            {
+            }
+        }
     }
 }

@@ -8,5 +8,6 @@ namespace Chance
 {
     class RandomSystem
     {
+        public List<User> users { get; private set; }
     }
 }
